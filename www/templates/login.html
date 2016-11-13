@@ -1,0 +1,22 @@
+<ion-header-bar align-title="center" class="bar-positive">
+  <h1 class="title">Inscription</h1>
+</ion-header-bar>
+<ion-pane>
+<ion-content ng-controller="todoController">
+  <label class="item item-input">
+    <input type="text" placeholder="Pseudo" ng-model="user.title">
+  </label>
+  <label class="item item-input">
+    <input type="text" placeholder="Adresse Mail" ng-model="user.mail">
+  </label>
+    <div class="buttons" ng-click="login()">
+  <a href="#/home"><button class="button button-block button-positive center" ng-click="login(todo)">Se connecter</button></a>
+    </div>
+</ion-content>
+</ion-pane>
+<ion-content class="has-footer">
+  Some content!
+</ion-content>
+<ion-footer-bar align-title="center" class="bar-assertive">
+  <h1 class="title">InStacheGram</h1>
+</ion-footer-bar>
