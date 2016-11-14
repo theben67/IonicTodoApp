@@ -2,9 +2,9 @@
   <p>Utilisateur :{{user.title}}<br />Mail :{{user.mail}}</p>
   <h1 class="title">Instachgram</h1>
 </ion-header-bar>
-<ion-content ng-controller="todoController">
+<ion-content ng-controller="todoController" scroll="true">
 
-<ion-scroll zooming="true" direction="xy" >
+<ion-slide>
 
 
 
@@ -12,7 +12,6 @@
 
 <div class="list card" style = "padding-top: 15px;">
 
-<ion-scroll zooming="true" direction="xy">
   <div class="item item-avatar">
     <img src="../img/movember_logo.jpg">
     <h2>Jean Michel A Vous</h2>
@@ -89,7 +88,7 @@
   </div>
 
 </div>
-</ion-scroll>
+</ion-slide>
 
 </ion-content>
 
